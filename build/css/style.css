@@ -1,0 +1,53 @@
+@font-face{
+	font-family : HackRegularMono;
+	src         : url(Hack_Regular_Mono.ttf);
+}
+
+body{
+	margin: 0px;
+}
+.editorContainer{
+	position: relative;
+	/* border       : 2px solid #FF6B6B; */
+	background-color: #292F36;
+	overflow: scroll;
+}
+.editor{
+	position: absolute;
+	margin: 0px;
+	padding      : 0px;
+	left: 25px;
+}
+
+.line{
+	font-family   : HackRegularMono;
+	font-size     : 13px;
+	margin-top    : 0px;
+	margin-bottom : 0px;
+	line-height   : 15px;
+	height        : 15px;
+	color: #FFFFFF;
+}
+
+.cursor{
+	position         : absolute;
+	height           : 13px;
+	width            : 2px;
+	background-color : #1B9AAA;
+}
+
+
+.lineNoArea{
+	position: absolute;
+	width: 20px;
+	/* border-right: 1px solid white; */
+	background-color: #1A1C1F;
+}
+
+.lineNoArea > pre {
+	margin: 0px;
+	height: 15px;
+	text-align: center;
+	line-height: 15px;
+	color: #E9D758;
+}
